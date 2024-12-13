@@ -1,0 +1,124 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 375px;
+	background-color: #b1c095 ;
+	margin: 0px;
+}
+
+/* HEADER */
+header{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+header img{
+	width: 200px;
+	display: flex;
+	align-self: center;}
+
+nav {
+	position: sticky;
+	top: 100;
+	overflow: hidden;
+	background-color: #6a7d4f;
+}
+
+nav li a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+li{
+	list-style: none;
+}
+
+ul{
+	margin: 0px;
+}
+
+/* MAIN */
+
+main{
+	padding: 10px;
+}
+
+h1, h2, h3{
+	font-family: "Shantell Sans";
+}
+
+h2{
+	padding-top:2em;
+}
+
+section h2{
+	padding-top: 0em;
+}
+
+p, a{
+	font-family: "Roboto";
+}
+
+section a, input[type="submit"]{
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	background-color: #6a7d4f;
+	border-radius: 20px;
+	border: none;
+}
+
+section, header p {
+	background-color: #dacfbb;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: gray 5px 5px;
+}
+
+section img{
+	width: 320px;
+}
+
+div{
+	display: flex;
+	flex-direction: row;
+}
+div img{
+	width: 160px;
+}
+
+div p{
+	font-weight: 600;
+}
+
+.visuallyhidden{
+	display: none;
+}
+
+.section-impact{
+	margin-top: 30px;
+}
+
+/* FOOTER */
+
+footer p{
+	display: block;
+	color: white;
+	background-color: black;
+	margin-bottom: 0px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
