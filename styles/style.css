@@ -87,6 +87,10 @@ section, header p {
 	box-shadow: gray 5px 5px;
 }
 
+section{
+	margin-top: 40px ;
+}
+
 section img{
 	width: 320px;
 }
